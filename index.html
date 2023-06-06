@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitin Parasram Andhale - Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header id="home" class="bg-primary text-white text-center py-5">
+    <h1>Nitin Parasram Andhale</h1>
+    <p>Java Developer</p>
+  </header>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a Java developer with experience in Core Java and JavaFX. I have a passion for creating user-friendly and
+        efficient software applications.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">GUI Chat Window</h5>
+              <p class="card-text">A GUI chat window that can "listen" for a connection request on a user-specified port.
+                It includes event handling for text field (chat text) and buttons (send, close, connect).</p>
+              <p><strong>Skills:</strong> Core Java, JavaFX</p>
+              <a href="https://github.com/nitin400/chatting-application-using-java" class="btn btn-primary">GitHub Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="project2.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Email Spam Classifier</h5>
+              <p class="card-text">An Email Spam Detection model built using the Naive Bayes algorithm. The model can predict
+                whether an email is spam or not spam. It utilizes the email dataset from Kaggle and implements both Bag of
+                Words (BOW) and TF-IDF featurization techniques. The web development part is done using Streamlit.</p>
+              <p><strong>Skills:</strong> Core Java, Naive Bayes, Streamlit</p>
+              <a href="https://github.com/nitin400/Email-Spam-Classifier" class="btn btn-primary">GitHub Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2023 Nitin Parasram Andhale
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popper.js/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
